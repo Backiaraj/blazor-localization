@@ -1,6 +1,6 @@
 # Blazor Localization Examples
 
-Localization examples demonstrating how to localize [Syncfusion Blazor UI components](https://www.syncfusion.com/blazor-components) across different Blazor hosting models and .NET versions.
+Localization examples demonstrating how to localize [Syncfusion<sup style="font-size:70%">&reg;</sup> Blazor UI components](https://www.syncfusion.com/blazor-components) across different Blazor hosting models and .NET versions.
 
 ## Overview
 
@@ -45,5 +45,4 @@ cd <project_folder_path..>
 ## References
 
 - [Blazor Localization Documentation](https://blazor.syncfusion.com/documentation/common/localization/)
-- [Syncfusion Blazor Components](https://www.syncfusion.com/blazor-components)
 - [GitHub: blazor-locale](https://github.com/syncfusion/blazor-locale) — Latest translation resource files
