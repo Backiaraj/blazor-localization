@@ -1,29 +1,49 @@
 # Blazor Localization Examples
 
-Localization examples showing localization of Syncfusion Blazor UI components in the Blazor Web, Server and Blazor WebAssembly application.
+Localization examples demonstrating how to localize [Syncfusion Blazor UI components](https://www.syncfusion.com/blazor-components) across different Blazor hosting models and .NET versions.
+
+## Overview
+
+This repository contains localization examples for the following configurations:
+
+| Directory | .NET Version | Hosting Model | Localization Type |
+|-----------|:-------------:|:-------------:|:------------------:|
+| `.NET5 Blazor Server App` | .NET 5 | Server | Static & Dynamic |
+| `.NET5 Blazor WASM App` | .NET 5 | WebAssembly | Dynamic |
+| `.NET6 Blazor Server App` | .NET 6 | Server | Static & Dynamic |
+| `.NET6 Blazor WASM App` | .NET 6 | WebAssembly | Dynamic |
+| `.NET 8 Blazor Web App` | .NET 8 | Web App (Auto) | Static & Dynamic |
+| `.NET8 MAUI Blazor App` | .NET 8 | MAUI | Static |
+
+### Localization Approaches
+
+- **Static Culture** — Culture is set at application `Startup.cs`/`Program.cs` and remains fixed during the session.
+- **Dynamic Culture** — Users can switch cultures at runtime, with the UI updating accordingly.
 
 ## Prerequisites
 
-* Visual Studio 2022 or later
-* Visual Studio Code
+- [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or later
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [.NET SDK](https://dotnet.microsoft.com/en-us/download/dotnet)
 
-## How to run the project
+## Getting Started
 
-1. Clone or download this repository to a location in your system.
-2. Open the specified application from the following folder either `.NET5 Blazor Server App` or `.NET5 Blazor WASM App` or `.NET6 Blazor Server App` or `.NET6 Blazor WASM App` using Visual Studio or Visual Studio Code.
-3. Restore the NuGet packages by rebuilding the solution or run `dotnet restore`.
-4. Build the project to ensure there are no compilation errors.
-5. Run the project.
+### Clone the repository
 
-Optional CLI Commands:
-
-```powershell
-dotnet restore
-dotnet build
+```bash
+git clone https://github.com/SyncfusionExamples/blazor-localization.git
+cd <project_folder_path..>
 ```
 
-> Always use latest resource (resx) files from [blazor locale](https://github.com/syncfusion/blazor-locale) repo.
+### Run with Visual Studio
+
+1. Open the solution file using Visual Studio 2022 or later.
+2. Restore NuGet packages by rebuilding the solution.
+3. Build the project to ensure there are no compilation errors
+4. Run the project
 
 ## References
 
-* [Blazor Localization UG documentation](https://blazor.syncfusion.com/documentation/common/localization/)
+- [Blazor Localization Documentation](https://blazor.syncfusion.com/documentation/common/localization/)
+- [Syncfusion Blazor Components](https://www.syncfusion.com/blazor-components)
+- [GitHub: blazor-locale](https://github.com/syncfusion/blazor-locale) — Latest translation resource files
